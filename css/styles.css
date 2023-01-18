@@ -1,0 +1,177 @@
+#title{
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 47%, rgba(252,176,69,1) 100%); 
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+    /* Navigation Bar*/
+ 
+.navbar{
+    padding-bottom: 4.5rem;
+ }
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+    /* Title - Image*/
+
+.img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 10px;
+    height: 600px;
+    width: 320px;
+}
+
+    /* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+    /* Features */
+
+#features{
+    padding: 7% 12%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+h2{
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    margin: 4% auto 4%;
+    font-family: 'Montserrat Alternates', sans-serif; 
+
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif; 
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #FD8A8A;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #EB455F;
+
+}
+
+    /* Testemnials */
+#testimonials{
+    
+    text-align: center;
+    background-color:#FF6464; 
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.img2{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+    /* Press */
+
+#press{
+    background-color: #FF6464;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+    /* Pricing */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.btn:hover{
+    color:#FD8A8A;
+}
+
+.price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+    /* cta and footer sections */
+
+#cta{
+    background-color: #FF6464;
+    font-size: 30px;
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.alt-button{
+    font-family: sans-serif;
+    margin: 0 1% 0;
+
+}
+.text-cta{
+    font-family: 'Montserrat Alternates', sans-serif; 
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 2% 5%;
+    
+}
