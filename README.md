@@ -1,4 +1,4 @@
-TinDog  Files -->
+TinDog  Website -->
 <a href="https://tindogm.netlify.app" target="_blank">TinDog</a>
 
 
